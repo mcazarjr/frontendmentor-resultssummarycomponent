@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="overallComp">
+          <p>Your Result</p>
+          <p class="actualScoreContainer">
+            <span class="actualScore">76</span> of 100
+          </p>
+          <p>Great</p>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="summaryComp">
+          <h2>Summary</h2>
+          <div id="reactionLabelContainer">
+            <span class="summaryLabel">
+              <object data="./assets/images/icon-reaction.svg">
+                <img src="./assets/images/icon-reaction.svg" />
+              </object>
+              Reaction
+            </span>
+            <p><span class="labelScore">61</span> / 100</p>
+          </div>
+          <div id="memoryLabelContainer">
+            <span class="summaryLabel">
+              <object data="./assets/images/icon-memory.svg">
+                <img src="./assets/images/icon-memory.svg" />
+              </object>
+              Memory
+            </span>
+            <p><span class="labelScore">92</span> / 100</p>
+          </div>
+          <div id="verbalLabelContainer">
+            <span class="summaryLabel">
+              <object data="./assets/images/icon-verbal.svg">
+                <img src="./assets/images/icon-verbal.svg" />
+              </object>
+              Verbal
+            </span>
+            <p><span class="labelScore">61</span> / 100</p>
+          </div>
+          <div id="visualLabelContainer">
+            <span class="summaryLabel">
+              <object data="./assets/images/icon-visual.svg">
+                <img src="./assets/images/icon-visual.svg" />
+              </object>
+              Visual
+            </span>
+            <p><span class="labelScore">72</span> / 100</p>
+          </div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://mscj.dev">Meraldo Cazar</a>.
+    </div>
+  </body>
+</html>
